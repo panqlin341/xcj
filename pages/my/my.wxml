@@ -1,0 +1,63 @@
+<view class="content">
+  <view class="bg">
+      <view class="my-mes">
+        <view class="img"><image src="../../image/my/my.jpeg"/></view>
+        <view class="text"><text>夏天的风</text></view>
+      </view>
+  </view>
+  <view class="pay">
+    <view class="opt1">
+      <view class="img"><image src="http://m.wooncai.com:80/www/img/mobile/mymes/percenter_pendingpayment.png"/></view>
+      <view class="text">待付款</view>
+    </view>
+        <view class="opt1">
+      <view class="img"><image src="http://m.wooncai.com:80/www/img/mobile/mymes/percenter_pendingpayment.png"/></view>
+      <view class="text">待付款</view>
+    </view>
+        <view class="opt1">
+      <view class="img"><image src="http://m.wooncai.com:80/www/img/mobile/mymes/percenter_pendingpayment.png"/></view>
+      <view class="text">待付款</view>
+    </view>
+        <view class="opt1 last">
+      <view class="img"><image src="http://m.wooncai.com:80/www/img/mobile/mymes/percenter_pendingpayment.png"/></view>
+      <view class="text">我的订单</view>
+    </view>
+  </view>
+  <view class="other">
+    <view class="opt2">
+      <view class="img">
+        <image src="http://m.wooncai.com:80/www/img/mobile/mymes/percenter_collection.png" />
+      </view>
+      <view class="text">收藏</view>
+    </view>
+    <view class="opt2">
+      <view class="img">
+        <image src="http://m.wooncai.com:80/www/img/mobile/mymes/percenter_collection.png" />
+      </view>
+      <view class="text">收藏</view>
+    </view>
+    <view class="opt2">
+      <view class="img">
+        <image src="http://m.wooncai.com:80/www/img/mobile/mymes/percenter_collection.png" />
+      </view>
+      <view class="text">收藏</view>
+    </view>
+  </view>
+  <view class="other" style='margin-top:0'>
+    <view class="opt2">
+      <view class="img">
+        <image src="http://m.wooncai.com:80/www/img/mobile/mymes/percenter_collection.png" />
+      </view>
+      <view class="text">收藏</view>
+    </view>
+    <view class="opt2">
+      <view class="img">
+        <image src="http://m.wooncai.com:80/www/img/mobile/mymes/percenter_collection.png" />
+      </view>
+      <view class="text">收藏</view>
+    </view>
+    <view class="opt2">
+     
+    </view>
+  </view>
+</view>

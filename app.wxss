@@ -1,0 +1,17 @@
+@import "utils/common.wxss";
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+.bar{position: absolute}
+.bar.header{top:0;height: 80rpx;overflow: hidden;width: 100%;background:green;color: white}
+.bar.header .title{line-height: 80rpx;font-size:37rpx;text-align: center;}
+.bar.content{top:80rpx;bottom: 0;width: 100%;overflow-y: auto;overflow-x: hidden;font-size:37rpx;}
+

@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/index/demo1/demo1",
+    "pages/index/demo2/demo2",
+    "pages/my/my",
+    "pages/food/food"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "燕--网",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/index/home_02.png",
+        "selectedIconPath": "image/index/home_01.png"
+      },
+      {
+        "pagePath": "pages/food/food",
+        "text": "美食",
+        "iconPath": "image/new/news_02.png",
+        "selectedIconPath": "image/new/news_01.png"
+      },
+      {
+        "pagePath": "pages/index/demo2/demo2",
+        "text": "发现",
+        "iconPath": "image/find/find_02.png",
+        "selectedIconPath": "image/find/find_01.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "image/my/my_02.png",
+        "selectedIconPath": "image/my/my_01.png"
+      }
+    ],
+    "color": "#7A7E83",
+    "selectedColor": "#e97a30",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "position": "bottom"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

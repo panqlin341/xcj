@@ -1,0 +1,180 @@
+<!--index.wxml-->
+<view class="index">
+  <view class="top">
+    <view class="search">
+      <view class="addr"><view>南宁</view></view>
+      <view class="input"><view>搜索</view></view>
+      <view class="shop"></view>
+    </view>
+  </view>
+  <view class="content">
+    <swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}"         indicator-active-color="{{indicatorActiveColor}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image"/>
+      </swiper-item>
+    </block>
+    </swiper>
+    <view class="nav-icon" style="padding-top: 20rpx;">
+      <view class="opt1" bindtap='openUrl'>
+          <view class="i">
+            <image src="../../image/index/index-icon1.png"/>
+          </view>
+        <view class="t">打开界面</view>
+      </view>
+      <view class="opt1" bindtap='redirtUrl'>
+          <view class="i">
+            <image src="../../image/index/index-icon1.png"/>
+          </view>
+        <view class="t">重写向</view>
+      </view>
+        <view class="opt1">
+          <view class="i">
+            <image src="../../image/index/index-icon1.png"/>
+          </view>
+          <view class="t">扫一扫</view>
+      </view>
+      <view class="opt1">
+          <view class="i">
+            <image src="../../image/index/index-icon1.png"/>
+          </view>
+          <view class="t">扫一扫</view>
+      </view>
+    </view>
+
+    <view class="nav-icon">
+      <view class="opt1">
+          <view class="i">
+            <image src="../../image/index/index-icon1.png"/>
+          </view>
+        <view class="t">扫一扫</view>
+      </view>
+      <view class="opt1">
+          <view class="i">
+            <image src="../../image/index/index-icon1.png"/>
+          </view>
+        <view class="t">扫一扫</view>
+      </view>
+        <view class="opt1">
+          <view class="i">
+            <image src="../../image/index/index-icon1.png"/>
+          </view>
+          <view class="t">扫一扫</view>
+      </view>
+      <view class="opt1">
+          <view class="i">
+            <image src="../../image/index/index-icon1.png"/>
+          </view>
+          <view class="t">扫一扫</view>
+      </view>
+    </view>
+    
+    <view class="all-s">
+      <block wx:for="{{content}}" wx:for-item="ct">
+        <view class="seller">
+          <view class="st">
+            <view class="img"><image src="{{ct.logo}}" /></view>
+            <view class="te">{{ct.sName}}</view>
+          </view>
+          <view class="ss">
+            <view wx:if="{{ct.goods.length == 6}}"> 
+              <view class="row">
+                <view  class="good">
+                  <view class="gt">{{ct.goods[0].gtitle}}</view>
+                  <view class="gd">{{ct.goods[0].gdsc}}</view>
+                  <view class="img" id="good_{{ct.goods[0].gid}}" data-img="{{ct.goods[0].url}}" data-imgs="{{ct.goods[0].url}},{{ct.goods[1].url}}" bindtap='lookImg'><image mode="widthFix"  src="{{ct.goods[0].url}}"/></view>
+                </view>
+                <view  class="good">
+                  <view class="gt">{{ct.goods[1].gtitle}}</view>
+                  <view class="gd">{{ct.goods[1].gdsc}}</view>
+                  <view class="img" data-img='{{ct.goods[1].url}}' bindtap='lookImg'><image mode="widthFix" src="{{ct.goods[1].url}}"/></view>
+                </view>
+                <view  class="good">
+                  <view class="gt">{{ct.goods[2].gtitle}}</view>
+                  <view class="gd">{{ct.goods[2].gdsc}}</view>
+                  <view class="img" data-img='{{ct.goods[2].url}}' bindtap='lookImg'><image mode="widthFix"  src="{{ct.goods[2].url}}"/></view>
+                </view>
+              </view>
+              <view class="row">
+                <view  class="good">
+                  <view class="gt">{{ct.goods[3].gtitle}}</view>
+                  <view class="gd">{{ct.goods[3].gdsc}}</view>
+                   <view class="img" data-img='{{ct.goods[3].url}}' bindtap='lookImg'><image mode="widthFix"  src="{{ct.goods[3].url}}"/></view>
+                </view>
+                <view class="good">
+                  <view class="gt">{{ct.goods[4].gtitle}}</view>
+                  <view class="gd">{{ct.goods[4].gdsc}}</view>
+                  <view class="img" data-img='{{ct.goods[4].url}}' bindtap='lookImg'><image mode="widthFix" src="{{ct.goods[4].url}}"/></view>
+                </view>
+                <view class="good">
+                  <view class="gt">{{ct.goods[5].gtitle}}</view>
+                  <view class="gd">{{ct.goods[5].gdsc}}</view>
+                  <view class="img" data-img='{{ct.goods[5].url}}' bindtap='lookImg'><image mode="widthFix" src="{{ct.goods[5].url}}"/></view>
+                </view>
+              </view>
+            </view>
+
+            <view wx:elif="{{ct.goods.length == 5}}"> 
+              <view class="row">
+                <view  class="good">
+                  <view class="gt">{{ct.goods[0].gtitle}}</view>
+                  <view class="gd">{{ct.goods[0].gdsc}}</view>
+                  <view class="img"><image mode="widthFix"  src="{{ct.goods[0].url}}"/></view>
+                </view>
+                <view  class="good">
+                  <view class="gt">{{ct.goods[1].gtitle}}</view>
+                  <view class="gd">{{ct.goods[1].gdsc}}</view>
+                  <view class="img"><image mode="widthFix" src="{{ct.goods[1].url}}"/></view>
+                </view>
+                <view  class="good">
+                  <view class="gt">{{ct.goods[2].gtitle}}</view>
+                  <view class="gd">{{ct.goods[2].gdsc}}</view>
+                  <view class="img"><image mode="widthFix"  src="{{ct.goods[2].url}}"/></view>
+                </view>
+              </view>
+              <view class="row">
+                <view  class="good">
+                  <view class="gt">{{ct.goods[3].gtitle}}</view>
+                  <view class="gd">{{ct.goods[3].gdsc}}</view>
+                   <view class="img"><image mode="widthFix"  src="{{ct.goods[3].url}}"/></view>
+                </view>
+                <view  class="good">
+                  <view class="gt">{{ct.goods[4].gtitle}}</view>
+                  <view class="gd">{{ct.goods[4].gdsc}}</view>
+                  <view class="img"><image mode="widthFix" src="{{ct.goods[4].url}}"/></view>
+                </view>
+              </view>
+            </view>
+            <view wx:elif="{{ct.goods.length == 4}}"> 
+               <view class="row">
+                <view  class="good">
+                  <view class="gt">{{ct.goods[0].gtitle}}</view>
+                  <view class="gd">{{ct.goods[0].gdsc}}</view>
+                  <view class="img"><image mode="widthFix"  src="{{ct.goods[0].url}}"/></view>
+                </view>
+                <view  class="good">
+                  <view class="gt">{{ct.goods[1].gtitle}}</view>
+                  <view class="gd">{{ct.goods[1].gdsc}}</view>
+                  <view class="img"><image mode="widthFix" src="{{ct.goods[1].url}}"/></view>
+                </view>
+              </view>
+              <view class="row">
+                <view  class="good">
+                  <view class="gt">{{ct.goods[2].gtitle}}</view>
+                  <view class="gd">{{ct.goods[2].gdsc}}</view>
+                   <view class="img"><image mode="widthFix"  src="{{ct.goods[2].url}}"/></view>
+                </view>
+                <view  class="good">
+                  <view class="gt">{{ct.goods[3].gtitle}}</view>
+                  <view class="gd">{{ct.goods[3].gdsc}}</view>
+                  <view class="img"><image mode="widthFix" src="{{ct.goods[3].url}}"/></view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

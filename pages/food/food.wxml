@@ -1,0 +1,30 @@
+<view class="foods">
+  <view class="header">
+      <view class="s"><view>请输入商家或商品名称</view></view>
+      <view class="d">
+        <scroll-view  scroll-x="true"  class="drag">
+            <view class="opt1 active">美食<view></view></view>
+            <view class="opt1">快餐便当<view class=""></view></view>
+            <view class="opt1">原汁原味<view class=""></view></view>
+            <view class="opt1">餐点披萨<view class=""></view></view>
+            <view class="opt1">美食1<view class=""></view></view>
+            <view class="opt1">美食2<view class=""></view></view>
+            <view class="opt1">美食3<view class=""></view></view>
+            <view class="opt1">美食4<view class=""></view></view>
+            <view class="opt1">美食5<view class=""></view></view>
+            <view class="opt1">美食6<view class=""></view></view>
+            <view class="opt1">美食7<view class=""></view></view>
+        </scroll-view>
+      </view>
+      <view class="sx"></view>
+      <view class="f">
+        <view class="first">综合排序</view>
+        <view>销量最高</view>
+        <view>距离最近</view>
+        <view class="last">筛选</view>
+      </view>
+  </view>
+  <view class="content">
+  aaa
+  </view>
+</view>
