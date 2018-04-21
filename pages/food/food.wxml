@@ -25,6 +25,231 @@
       </view>
   </view>
   <view class="content">
-  aaa
+    <scroll-view scroll-y="true" class="flist">
+    
+      <view class="item">
+        <view class="c1">
+          <view class="img"><image mode="widthFix" src="../../image/new/meisui1.jpg"/></view>
+        </view>
+        <view class="c2">
+          <view>湘菜时代</view>
+          <view class="mc">
+            <view class="op1">
+              <view class="o">              
+                <view class="v1">接受预定</view>
+                <view class="v2">11:50后配送</view>
+              </view>
+              <view class="sou"><text>\t5.0\t月售:2293</text></view>
+            </view>
+            <view class="op2">48分钟|1.6km</view>
+          </view>
+          <view class="oop">
+            <view class="p1 o">
+              <view class="l"><text>起始￥20\t配送￥5\t人均￥30</text></view>
+              <view class="r">我的专送</view>
+            </view>
+            <view class="p2 o">
+              <view class="l v1"><view class="img"><image src="../../image/new/meisui2.png"/></view>新用户立减13元</view>
+              <view class="r"></view>
+            </view>
+            <view class="p2 o">
+              <view class="l v1"><view class="img"><image src="../../image/new/meisui3.png"/></view>满80减6;满120减10</view>
+            </view>
+          </view>
+        </view>
+      </view>
+      
+      <view class="item">
+        <view class="c1">
+          <view class="img"><image mode="widthFix" src="../../image/new/meisui1.jpg"/></view>
+        </view>
+        <view class="c2">
+          <view>湘菜时代</view>
+          <view class="mc">
+            <view class="op1">
+              <view class="o">              
+                <view class="v1">接受预定</view>
+                <view class="v2">11:50后配送</view>
+              </view>
+              <view class="sou"><text>\t5.0\t月售:2293</text></view>
+            </view>
+            <view class="op2">48分钟|1.6km</view>
+          </view>
+          <view class="oop">
+            <view class="p1 o">
+              <view class="l"><text>起始￥20\t配送￥5\t人均￥30</text></view>
+              <view class="r">我的专送</view>
+            </view>
+            <view class="p2 o">
+              <view class="l v1"><view class="img"><image src="../../image/new/meisui2.png"/></view>新用户立减13元</view>
+              <view class="r"></view>
+            </view>
+            <view class="p2 o">
+              <view class="l v1"><view class="img"><image src="../../image/new/meisui3.png"/></view>满80减6;满120减10</view>
+            </view>
+          </view>
+        </view>
+      </view>
+
+      <view class="item">
+        <view class="c1">
+          <view class="img"><image mode="widthFix" src="../../image/new/meisui1.jpg"/></view>
+        </view>
+        <view class="c2">
+          <view>湘菜时代</view>
+          <view class="mc">
+            <view class="op1">
+              <view class="o">              
+                <view class="v1">接受预定</view>
+                <view class="v2">11:50后配送</view>
+              </view>
+              <view class="sou"><text>\t5.0\t月售:2293</text></view>
+            </view>
+            <view class="op2">48分钟|1.6km</view>
+          </view>
+          <view class="oop">
+            <view class="p1 o">
+              <view class="l"><text>起始￥20\t配送￥5\t人均￥30</text></view>
+              <view class="r">我的专送</view>
+            </view>
+            <view class="p2 o">
+              <view class="l v1"><view class="img"><image src="../../image/new/meisui2.png"/></view>新用户立减13元</view>
+              <view class="r"></view>
+            </view>
+            <view class="p2 o">
+              <view class="l v1"><view class="img"><image src="../../image/new/meisui3.png"/></view>满80减6;满120减10</view>
+            </view>
+          </view>
+        </view>
+      </view>
+
+            <view class="item">
+        <view class="c1">
+          <view class="img"><image mode="widthFix" src="../../image/new/meisui1.jpg"/></view>
+        </view>
+        <view class="c2">
+          <view>湘菜时代</view>
+          <view class="mc">
+            <view class="op1">
+              <view class="o">              
+                <view class="v1">接受预定</view>
+                <view class="v2">11:50后配送</view>
+              </view>
+              <view class="sou"><text>\t5.0\t月售:2293</text></view>
+            </view>
+            <view class="op2">48分钟|1.6km</view>
+          </view>
+          <view class="oop">
+            <view class="p1 o">
+              <view class="l"><text>起始￥20\t配送￥5\t人均￥30</text></view>
+              <view class="r">我的专送</view>
+            </view>
+            <view class="p2 o">
+              <view class="l v1"><view class="img"><image src="../../image/new/meisui2.png"/></view>新用户立减13元</view>
+              <view class="r"></view>
+            </view>
+            <view class="p2 o">
+              <view class="l v1"><view class="img"><image src="../../image/new/meisui3.png"/></view>满80减6;满120减10</view>
+            </view>
+          </view>
+        </view>
+      </view>
+
+
+            <view class="item">
+        <view class="c1">
+          <view class="img"><image mode="widthFix" src="../../image/new/meisui1.jpg"/></view>
+        </view>
+        <view class="c2">
+          <view>湘菜时代</view>
+          <view class="mc">
+            <view class="op1">
+              <view class="o">              
+                <view class="v1">接受预定</view>
+                <view class="v2">11:50后配送</view>
+              </view>
+              <view class="sou"><text>\t5.0\t月售:2293</text></view>
+            </view>
+            <view class="op2">48分钟|1.6km</view>
+          </view>
+          <view class="oop">
+            <view class="p1 o">
+              <view class="l"><text>起始￥20\t配送￥5\t人均￥30</text></view>
+              <view class="r">我的专送</view>
+            </view>
+            <view class="p2 o">
+              <view class="l v1"><view class="img"><image src="../../image/new/meisui2.png"/></view>新用户立减13元</view>
+              <view class="r"></view>
+            </view>
+            <view class="p2 o">
+              <view class="l v1"><view class="img"><image src="../../image/new/meisui3.png"/></view>满80减6;满120减10</view>
+            </view>
+          </view>
+        </view>
+      </view>
+
+
+            <view class="item">
+        <view class="c1">
+          <view class="img"><image mode="widthFix" src="../../image/new/meisui1.jpg"/></view>
+        </view>
+        <view class="c2">
+          <view>湘菜时代</view>
+          <view class="mc">
+            <view class="op1">
+              <view class="sou"><text>\t5.0\t月售:2293</text></view>
+            </view>
+            <view class="op2">48分钟|1.6km</view>
+          </view>
+          <view class="oop">
+            <view class="p1 o">
+              <view class="l"><text>起始￥20\t配送￥5\t人均￥30</text></view>
+              <view class="r">我的专送</view>
+            </view>
+            <view class="p2 o">
+              <view class="l v1"><view class="img"><image src="../../image/new/meisui2.png"/></view>新用户立减13元</view>
+              <view class="r"></view>
+            </view>
+            <view class="p2 o">
+              <view class="l v1"><view class="img"><image src="../../image/new/meisui3.png"/></view>满80减6;满120减10</view>
+            </view>
+          </view>
+        </view>
+      </view>
+
+
+      <view class="item">
+        <view class="c1">
+          <view class="img"><image mode="widthFix" src="../../image/new/meisui1.jpg"/></view>
+        </view>
+        <view class="c2">
+          <view>湘菜时代</view>
+          <view class="mc">
+            <view class="op1">
+              <view class="o">              
+                <view class="v1">接受预定</view>
+                <view class="v2">11:50后配送</view>
+              </view>
+              <view class="sou"><text>\t5.0\t月售:2293</text></view>
+            </view>
+            <view class="op2">48分钟|1.6km</view>
+          </view>
+          <view class="oop">
+            <view class="p1 o">
+              <view class="l"><text>起始￥20\t配送￥5\t人均￥30</text></view>
+              <view class="r">我的专送</view>
+            </view>
+            <view class="p2 o">
+              <view class="l v1"><view class="img"><image src="../../image/new/meisui2.png"/></view>新用户立减13元</view>
+              <view class="r"></view>
+            </view>
+            <view class="p2 o">
+              <view class="l v1"><view class="img"><image src="../../image/new/meisui3.png"/></view>满80减6;满120减10</view>
+            </view>
+          </view>
+        </view>
+      </view>
+
+    </scroll-view>
   </view>
 </view>
